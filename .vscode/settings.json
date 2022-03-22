@@ -1,0 +1,7 @@
+{
+    "objectscript.conn": {
+        "server": "embeddedpython",
+        "ns": "USER",
+        "active": true
+    }
+}
