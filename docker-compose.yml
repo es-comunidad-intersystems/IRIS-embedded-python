@@ -7,7 +7,6 @@ services:
       args:
         - IRIS_PASSWORD=${IRIS_PASSWORD:-SYS}
     volumes:
-#      - ./:/irisdev/app/
       - ./:/opt/irisapp/
     ports:
     - 52775:52773
