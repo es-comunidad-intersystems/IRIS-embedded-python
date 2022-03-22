@@ -1,8 +1,8 @@
-ARG IMAGE=containers.intersystems.com/intersystems/irishealth-community:2021.2.0.651.0
+ARG IMAGE=containers.intersystems.com/intersystems/iris:2021.2.0.651.0
 FROM $IMAGE
 
 # For non community version
-# COPY key/iris.key /usr/irissys/mgr/iris.key
+COPY key/iris.key /usr/irissys/mgr/iris.key
 
 USER root
 
