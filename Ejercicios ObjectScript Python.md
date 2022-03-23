@@ -50,11 +50,17 @@ write pymath.factorial(10)
 
 Ejecutemos una shell Python
 ```
+set $namespace = "SAMPLES"
+SAMPLES>do ##class(%SYS.Python).Shell()
+Python 3.9.5 (default, Jul 19 2021, 17:50:44) [MSC v.1927 64 bit (AMD64)] on win32
+Type quit() or Ctrl-D to exit this shell.
+>>>
 ```
 Dentro de la shell podemos ejecutar cualquier comando Python
 
-
 ```
+print ("hello world")
+hello world
 ```
 
 Ejecutemos un comando Python directamente desde ObjectScript:
