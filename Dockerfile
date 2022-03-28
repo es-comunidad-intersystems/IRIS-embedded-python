@@ -1,4 +1,4 @@
-ARG IMAGE=containers.intersystems.com/intersystems/iris:2021.2.0.651.0
+ARG IMAGE=containers.intersystems.com/intersystems/iris:2022.1.0.152.0
 FROM $IMAGE
 
 # For non community version

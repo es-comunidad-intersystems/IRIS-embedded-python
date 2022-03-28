@@ -16,6 +16,7 @@
     // Install csvgen package
     zpm "install csvgen"
     zpm "install webterminal"
+    zpm "install python-faker"
     // Load Titanic data
     do ##class(community.csvgen).Generate("/opt/irisapp/misc/titanic.csv",,"Titanic.Table.Passenger")
     // Auto Start Production 
