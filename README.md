@@ -58,9 +58,10 @@ Desde el menú lateral se puede profundizar, viendo procesos, mensajes, usuarios
 
 # DataScience
 
-# Data Plot
 
 # QR
+
+En este ejemplo vamos a generar códigos QR usando qrcode
 
 # Generación de datos anónimos
 
@@ -74,6 +75,8 @@ Donde puerto es el que hayas elegido para IRIS en el fichero docker-compose.yaml
 
 ## Tecnología empleada
 
+InterSystems IRIS, python, Pandas, Qrcode, Faker, Flask, Matplotlib ...
+
 ## Credits
 
 Los siguientes repositorios han sido usados:
@@ -86,3 +89,4 @@ Los siguientes repositorios han sido usados:
 
 * https://github.com/NjekTt/iris-python-dashboards.git
 
+* https://github.com/caretdev/iris-python-faker.git
