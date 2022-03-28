@@ -64,7 +64,13 @@ Desde el menú lateral se puede profundizar, viendo procesos, mensajes, usuarios
 
 # Generación de datos anónimos
 
+Vamos a emplear la librería de python faker para generar datos anónimos
 
+La url es:
+
+    http://localhost:puerto/faker/index.html
+
+Donde puerto es el que hayas elegido para IRIS en el fichero docker-compose.yaml (52775 por defecto)
 
 ## Tecnología empleada
 
@@ -79,3 +85,4 @@ Los siguientes repositorios han sido usados:
 * https://github.com/mwaseem75/iris-python-apps
 
 * https://github.com/NjekTt/iris-python-dashboards.git
+
