@@ -6,3 +6,4 @@ qrcode
 reportlab
 faker
 geopy
+usaddress-scourgify
