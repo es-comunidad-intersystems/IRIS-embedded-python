@@ -12,7 +12,7 @@ import logging
 app = Flask(__name__) 
 app.secret_key = "abc222"
 
-logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+logging.basicConfig(filename='/tmp/record.log', level=logging.WARNING, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
  
 @app.route('/blogs')
 def blog():
