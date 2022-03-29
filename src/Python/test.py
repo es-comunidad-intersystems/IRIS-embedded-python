@@ -1,7 +1,7 @@
 import sys
 import os
 
-# Comprobar que el servicio "callin esté activo"
+# Comprobar que el servicio "callin" esté activo
 os.environ["IRISUSERNAME"]="SuperUser"
 os.environ["IRISPASSWORD"]="SYS"
 os.environ["IRISNAMESPACE"]="USER"
