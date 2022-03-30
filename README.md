@@ -51,18 +51,6 @@ Desde el menú superior se puede acceder al portal de gestión de IRIS y al dash
 Desde el menú lateral se puede profundizar, viendo procesos, mensajes, usuarios, aplicaciones y eventos en detalle.
 
 
-
-# Python Embebido
-
-# Flask
-
-# DataScience
-
-
-# QR
-
-En este ejemplo vamos a generar códigos QR usando qrcode
-
 # Generación de datos anónimos
 
 Vamos a emplear la librería de python faker para generar datos anónimos
